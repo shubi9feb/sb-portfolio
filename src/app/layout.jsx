@@ -1,7 +1,7 @@
 // src/app/layout.jsx
 import "@/app/globals.css";
 import Navbar from "../components/Navbar";
-
+import { SpeedInsights } from "@vercel/speed-insights/next";
 export const metadata = {
   title: "Shubham Bhatia | Portfolio",
   description: "Frontend React Developer Portfolio",
@@ -13,6 +13,7 @@ export default function RootLayout({ children }) {
       <body className="bg-white text-black dark:bg-zinc-900 dark:text-white transition-colors duration-300">
         <Navbar />
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
