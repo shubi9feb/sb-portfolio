@@ -19,7 +19,7 @@ export default function AboutSection() {
         >
           <div className="w-80 h-80 relative rounded-full overflow-hidden shadow-lg group">
             <Image
-              src="/images/shubham.jpeg"
+              src="/images/portfolio.jpeg"
               width={350}
               height={250}
               alt="Shubham Bhatia"
